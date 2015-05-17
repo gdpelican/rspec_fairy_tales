@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe 'FiftyWordWonders' do
+describe 'DrSeussSpecial' do
 
-  before { @stories = find_stories('fifty_word_wonders').compact }
+  before { @stories = find_stories('dr_seuss_special').compact }
 
   it 'must use less than 50 words' do
     @stories.map { |story| expect(story).to have_a_word_maximum_of 50 }
