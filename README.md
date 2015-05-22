@@ -10,10 +10,6 @@ clone the repository
 ```
 git clone https://github.com/gdpelican/rspec_fairy_tales.git
 ```
-install the bundle
-```
-cd rspec_fairy_tales && bundle install
-```
 
 Pick a story from the list of [created prompts](./spec/prompts/), and create an empty text file in the matching directory in the [library](./library) folder.
 
@@ -27,7 +23,7 @@ bundle install && bundle exec rspec
 
 Or submit a pull request to have our CI run the specs against it.
 
-**Writers**: New to github? I've tried to make the technical knowledge barrier to entry as low as possible, but feel free to raise an issue [here](http://www.github.com/gpdelican/rspec_fairy_tales/issues/new) if the coding and gitting stuff is getting in the way of the writing stuff.
+**Writers**: New to github? I've tried to make the technical knowledge barrier to entry as low as possible, but feel free to raise an issue [here](http://www.github.com/gdpelican/rspec_fairy_tales/issues/new) if the coding and gitting stuff is getting in the way of the writing stuff.
 
 #### Adding a story prompt
 clone the repository
