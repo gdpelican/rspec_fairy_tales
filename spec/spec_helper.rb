@@ -5,5 +5,3 @@ def find_stories(story_name)
     end
   end
 end
-
-require 'story_helper'
