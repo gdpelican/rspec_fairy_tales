@@ -1,5 +1,6 @@
 # RSpec Fairy Tales
 ### Open source storytelling with 100% test coverage
+[ ![Codeship Status for gdpelican/rspec_fairy_tales](https://codeship.com/projects/4248a0a0-caf0-0132-840e-4a3e524f24ba/status?branch=master)](https://codeship.com/projects/75620)
 
 ##### Adding a story prompt
 clone the repository
@@ -24,4 +25,4 @@ And spec away!
     it { is_expected.to have_a_word_maximum_of 1000 }
 ```
 
-Check out [spec/prompts/story_helper.rb](spec/prompts/story_helper.rb) for the current matchers (or write your own!)
+Check out [spec/story_helper.rb](spec/story_helper.rb) for the current matchers (or write your own!)
