@@ -6,7 +6,7 @@ To create a new prompt for someone to write stories against, run the create_prom
 rake create_prompt[your_story_name]
 ```
 
-This will create a `<your_story_name>_spec.rb` file in this folder, which can accept assertions about the stories people will write.
+This will create a `<your_story_name>_spec.rb` file in this folder, which can accept assertions about the stories people will write. Check out `dr_seuss_special_spec.rb` for an example!
 
 Examples for each of the existing matchers:
 
