@@ -60,6 +60,6 @@ it { is_expected.to begin_with "A long, long time ago..." }
 it { is_expected.to end_with "Party on, Garth" }
 ```
 
-The syntax for creating your own matchers isn't too hard, either! Check out the [story_helper](story_helper.rb) for examples, or the [rspec documentation](https://www.relishapp.com/rspec/rspec-expectations/v/2-4/docs/custom-matchers/define-matcher) on writing your own matchers. Get creative!
+The syntax for creating your own matchers isn't too hard, either! Check out the [story_helper](../story_helper.rb) for examples, or the [rspec documentation](https://www.relishapp.com/rspec/rspec-expectations/v/2-4/docs/custom-matchers/define-matcher) on writing your own matchers. Get creative!
 
 Happy prompting!
